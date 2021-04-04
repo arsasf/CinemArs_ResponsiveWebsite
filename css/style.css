@@ -1,0 +1,976 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+/* Page Sign-In ==============================*/
+.page-signIn {
+  font-family: "Inter", sans-serif;
+}
+/* tampilan kolom kiri */
+.left {
+  background-color: #2b156b;
+  padding: 0;
+  position: relative;
+  /* opacity: 50%; */
+}
+.left p {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  left: -5%;
+  right: 0;
+  bottom: 40%;
+  top: 60%;
+}
+
+.img-background {
+  width: 100%;
+  opacity: 20%;
+}
+
+.img-logo {
+  position: absolute;
+  width: 45%;
+  top: 37%;
+  left: 25%;
+}
+
+/* Tampilan Kolom Kanan */
+
+.right form {
+  /* background-color: blue; */
+  margin: 75px 25px 0px 25px;
+  padding: 15px 25px 10px 20px;
+}
+
+.information-password {
+  margin: 10px 25px 25px 25px;
+  padding: 0px 25px 10px 20px;
+}
+.title-signIn {
+  font-weight: bold;
+}
+
+.signIn {
+  background-color: #5f2eea;
+  color: white;
+}
+.password {
+  display: flex;
+  position: relative;
+}
+.img-pswd {
+  position: absolute;
+  justify-content: right;
+  bottom: 20%;
+  left: 90%;
+}
+
+.forget-password {
+  text-align: center;
+}
+
+.reset {
+  color: #845eef;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.or-web {
+  font-size: 13px;
+}
+
+.line1 {
+  width: 35%;
+  height: 1px;
+  background-color: rgba(211, 211, 211, 0.397);
+}
+.line2 {
+  width: 35%;
+  height: 1px;
+  background-color: rgba(211, 211, 211, 0.397);
+}
+
+.flex2 {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.facebook,
+.google {
+  display: flex;
+  width: 100%;
+  height: 75%;
+  border-radius: 10px;
+  justify-content: flex-end;
+}
+
+.btn img {
+  /* background-color: blue; */
+  padding: 5px 15px 0px 0px;
+}
+/* responsive website */
+
+/* ================ page sign in akhir =========================== */
+
+/* =================navbar======================================= */
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .container-fluid,
+.navbar .container {
+  height: 104px;
+  width: 1346px;
+
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+
+.navbar .container-fluid .menu-right,
+.navbar .container .menu-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .container-fluid .menu-right a,
+.navbar .container .menu-right a {
+  padding: 25px;
+  text-decoration: none;
+  color: #414141;
+}
+
+.navbar .container-fluid .menu-left,
+.navbar .container .menu-left {
+  padding: 0px 25px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .container-fluid .menu-left a,
+.navbar .container .menu-left a {
+  padding: 25px;
+  text-decoration: none;
+  color: #414141;
+}
+
+.navbar .container-fluid .menu-left img,
+.navbar .container .menu-left img {
+  padding: 0px 5px 0px 50px;
+}
+
+.navbar .container-fluid .menu-left .btn,
+.navbar .container .menu-left .btn {
+  margin-left: 50px;
+  background-color: #5f2eea;
+  color: #f5f6f8;
+}
+/* ==================================Akhir Navbar ===================*/
+
+/* =================Footer======================*/
+footer {
+  font-family: "Mulish", sans-serif;
+  height: 443px;
+  width: 1346px;
+}
+
+footer .container .footer1 {
+  color: #4e4b66;
+  font-size: 16px;
+}
+
+footer .container .footer2 {
+  color: #4e4b66;
+}
+
+footer .container h1 {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
+
+footer .container h6 {
+  font-size: 14px;
+  color: #4e4b66;
+  font-weight: 400;
+}
+
+footer p {
+  text-align: center;
+  color: #4e4b66;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* Akhir Footer=============== */
+
+/* =========================homepage================================= */
+/* ==============================content1==========================*/
+
+.home-page-content1 {
+  font-family: "Mulish", sans-serif;
+}
+
+.home-page-content1 .container {
+  padding: 0;
+  margin: 0;
+  width: 1346px;
+}
+
+.home-page-content1 .container .row {
+  height: 609px;
+  width: 1346px;
+}
+
+.home-page-content1 .container .left {
+  width: 673px;
+  text-align: left;
+  display: flex;
+  justify-content: start;
+  padding-left: 50px;
+  padding-top: 200px;
+  margin-top: 20px;
+  background-color: white !important;
+}
+
+.home-page-content1 .container .left h6 {
+  font-size: 18px;
+  color: #414141;
+}
+
+.home-page-content1 .container .left h1 {
+  color: #5f2eea;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.home-page-content1 .container .right {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.home-page-content1 .container .right .btn {
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+.home-page-content1 .container .right .img1 {
+  margin: 90px 0px 60px 100px;
+}
+
+.home-page-content1 .container .right .img2 {
+  margin: 60px 0px 90px 25px;
+}
+
+.home-page-content1 .container .right .img3 {
+  margin: 30px 0px 120px 25px;
+}
+/* =======================================Akhir Content 1 */
+
+/* =================Content2================== */
+
+.content2 {
+  background-color: #f5f6f8;
+  font-family: "Mulish", sans-serif;
+  height: 578px;
+}
+
+.content2 .container {
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.content2 .container .showing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content2 .container .showing a {
+  color: #5f2eea;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 15px;
+}
+
+.content2 .container .showing span {
+  background-color: #5f2eea;
+  width: 100px;
+  height: 3px;
+  border-radius: 10px;
+}
+
+.content2 .container a {
+  color: #5f2eea;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Akhir content2============================= */
+/* ===============================content3================= */
+.content3 {
+  font-family: "Mulish", sans-serif;
+}
+
+.content3 .container {
+  display: flex;
+  align-items: center;
+}
+
+.content3 .container .showing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 30px;
+}
+
+.content3 .container .upcoming-movies {
+  color: #5f2eea;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.content3 .container .showing .upcoming-movies {
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.content3 .btn-click {
+  color: #5f2eea;
+  border-color: #5f2eea;
+}
+
+.content3 .btn-click-1 {
+  background-color: #5f2eea;
+  color: #f5f6f8;
+  border-color: #5f2eea;
+}
+
+a.btn-click:hover,
+button.btn-click:hover {
+  background-color: #5f2eea;
+  color: #f5f6f8;
+  font-weight: lighter;
+}
+
+.content3 .details h5 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.content3 .details p {
+  color: #a0a3bd;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+/* Akhir content3======================= */
+
+/*===============Content4=================== */
+
+.content4 {
+  font-family: "Mulish", sans-serif;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.content4 .container {
+  align-items: center;
+  height: 372px;
+  width: 1096px;
+  border-radius: 8px;
+}
+
+.content4 .container .title-send-email {
+  text-align: center;
+}
+
+.content4 .container .title-send-email h6 {
+  font-size: 16px;
+  color: grey;
+  font-weight: lighter;
+}
+
+.content4 .container .title-send-email h1 {
+  font-size: 32px;
+  color: #5f2eea;
+  font-weight: bold;
+}
+
+.content4 .container .email {
+  width: 75%;
+}
+
+.content4 .container .send-email button {
+  background-color: #5f2eea;
+  color: #f5f6f8;
+}
+
+.content4 .container .send-email .footer-send-email h6 {
+  text-align: center;
+  font-size: 16px;
+  color: grey;
+  font-weight: lighter;
+}
+
+/* Akhir content4==================== */
+/* Akhir HomePage==================== */
+
+/* =================Movie Details============== */
+
+/* ================Content1===================*/
+.content1-movie-details {
+  font-family: "Mulish", sans-serif;
+}
+
+.content1-movie-details .container {
+  display: flex;
+  align-items: center;
+}
+
+.content1-movie-details .container .img-details {
+  width: 100%;
+  height: 100%;
+  padding-right: 5%;
+}
+
+.content1-movie-details .container .img-details .img-thumbnail {
+  border-radius: 25px;
+}
+
+.content1-movie-details .container .details-content .details-title h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #14142b;
+}
+
+.content1-movie-details .container .details-content .details-title h6 {
+  font-size: 18px;
+  color: #4e4b66;
+}
+
+.content1-movie-details .container .details-content .details-time-actor h6 {
+  color: #8692a6;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.content1-movie-details .container .date-duration {
+  margin-right: 10%;
+}
+
+.content1-movie-details .container .details-content .details-time-actor h1 {
+  color: #121212;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.content1-movie-details .container span {
+  width: 100%;
+  height: 1px;
+  background-color: #dedede;
+}
+
+.content1-movie-details .container .details-content .synopsis h1 {
+  font-size: 20px;
+  color: #000000;
+}
+
+.content1-movie-details .container .details-content .synopsis h6 {
+  font-size: 16px;
+  color: #4e4b66;
+}
+/* Akhir content1========================== */
+
+/* =====================Content2=========== */
+.content2-movie-details {
+  background-color: #f5f6f8;
+  height: 1100px;
+  font-family: "Mulish", sans-serif;
+}
+
+.content2-movie-details .container-1 {
+  padding-bottom: 1%;
+}
+.content2-movie-details .container h1 {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content2-movie-details .date-location {
+  width: 650px;
+}
+
+.content2-movie-details .date {
+  display: flex;
+  align-items: center;
+  background-color: #eff0f6;
+  height: 56px;
+  width: 284px;
+  left: 0px;
+  top: 0px;
+  padding-right: 10%;
+  border-radius: 6px;
+}
+
+.content2-movie-details .date .calander {
+  margin-left: 10px;
+  height: 18px;
+  width: 18px;
+  left: 24px;
+  top: 19px;
+}
+
+.content2-movie-details .date h6 {
+  font-size: 14px;
+  padding-left: 20px;
+  padding-top: 47%;
+  padding-bottom: 43%;
+  color: #4e4b66;
+}
+
+.content2-movie-details .date .dropdown {
+  font-size: 14px;
+  padding-left: 60%;
+  padding-top: 48%;
+  padding-bottom: 45%;
+}
+
+.content2-movie-details .location {
+  display: flex;
+  align-items: center;
+  background-color: #eff0f6;
+  height: 56px;
+  width: 284px;
+  left: 0px;
+  top: 0px;
+  border-radius: 6px;
+}
+
+.content2-movie-details .location .icon {
+  margin-left: 10px;
+  height: 18px;
+  width: 18px;
+  left: 24px;
+  top: 19px;
+}
+
+.content2-movie-details .location h6 {
+  font-size: 14px;
+  padding-left: 20px;
+  padding-top: 47%;
+  padding-bottom: 43%;
+  color: #4e4b66;
+}
+
+.content2-movie-details .location .dropdown {
+  font-size: 14px;
+  padding-left: 40%;
+  padding-top: 48%;
+  padding-bottom: 45%;
+}
+
+.content2-movie-details .container-2 {
+  margin-top: 5%;
+  margin-bottom: -5%;
+}
+
+.content2-movie-details .container-2 .card {
+  height: 350px;
+  width: 381px;
+  margin: 1%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content2-movie-details .container-2 .card .name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content2-movie-details .container-2 .card .name img {
+  height: max-content;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  padding: 0% 5% 0% 5%;
+}
+.content2-movie-details .container-2 .card .name .address {
+  /* background-color: tomato; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.content2-movie-details .container-2 .card .name .address h1 {
+  font-size: 24px;
+  text-align: left;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+
+.content2-movie-details .container-2 .card .name .address h6 {
+  font-size: 15px;
+  font-weight: lighter;
+  color: #6e7191;
+}
+
+.content2-movie-details .container-2 .card span {
+  margin-top: -10%;
+  width: 100%;
+  height: 2px;
+  background-color: #dedede;
+}
+
+.content2-movie-details .container-2 .card .time1 {
+  margin-top: -10%;
+  display: flex;
+  justify-content: space-between;
+}
+.content2-movie-details .container-2 .card .time2 {
+  margin-top: -10%;
+  display: flex;
+  justify-content: space-between;
+}
+.content2-movie-details .container-2 .card .time1 h6,
+.content2-movie-details .container-2 .card .time2 h6 {
+  width: 19%;
+  margin: 5px;
+  padding: 5px;
+  color: #a0a3bd;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.content2-movie-details .container-2 .card .price {
+  margin-top: -10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content2-movie-details .container-2 .card .price h1 {
+  width: 35%;
+  padding: 10px;
+  margin: 5px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content2-movie-details .container-2 .card .price h6 {
+  width: 25%;
+  padding: 10px;
+  margin: 5px;
+  color: #6b6b6b;
+  font-size: 16px;
+}
+
+.content2-movie-details .container-2 .card .booking {
+  margin-top: -10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content2-movie-details .container-2 .card .booking .btn-1 {
+  margin: 5px;
+  width: 35%;
+  margin-left: 15px;
+  background-color: #5f2eea;
+  font-size: 16px;
+  font-weight: lighter, 700;
+  color: #f7f7fc;
+}
+
+.content2-movie-details .container-2 .card .booking button.btn-1:hover {
+  background-color: #f7f7fc;
+  color: #5f2eea;
+  font-weight: bold;
+}
+
+.content2-movie-details .container-2 .card .booking .btn-2 {
+  margin: 5px;
+  width: 35%;
+  margin-right: 10%;
+  color: #5f2eea;
+  border-color: #5f2eea;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content2-movie-details .container-2 .card .booking button.btn-2:hover {
+  background-color: #5f2eea;
+  color: #f7f7fc;
+  font-weight: lighter;
+}
+
+.content2-movie-details .container-2-1 {
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+.content2-movie-details .container-2-1 .line {
+  margin-top: 10px;
+  width: 500px;
+  height: 1px;
+  background-color: #dedede;
+}
+
+.content2-movie-details .container-2-1 a {
+  font-size: 16px;
+  color: #5f2eea;
+  font-weight: 600, lighter;
+  text-decoration: none;
+}
+/* Akhir Content2==================== */
+/* Akhir Movie Details=============== */
+/* ====================Oreder Page========= */
+.order-page {
+  background-color: #e5e5e5;
+  font-family: "Mulish", sans-serif;
+  height: 1137px;
+}
+
+.order-page .content1 {
+  background-color: #e5e5e5;
+}
+
+.order-page .content1 .change {
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+  height: 104px;
+  width: 820px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.order-page .content1 h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.order-page .content1 .btn-change {
+  color: #5f2eea;
+  font-weight: 700, lighter;
+  background-color: #eff0f6;
+  border-radius: 10px;
+}
+
+.order-page .content1 h1 {
+  margin-top: 48px;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #14142b;
+}
+
+/* ====================Content2============ */
+
+.order-page .content2 {
+  background-color: #e5e5e5;
+}
+.order-page .content2 .d-grid {
+  height: 661px;
+  width: 820px;
+  border-radius: 6px;
+  background-color: white;
+}
+.order-page .content2 h1 {
+  text-align: center;
+  font-size: 14px;
+  color: #4e4b66;
+  font-weight: 600;
+  margin-top: 20%;
+}
+
+.order-page .content2 span {
+  height: 2px;
+  width: 532px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #eee8e8;
+}
+
+.order-page .content2 h2 {
+  text-align: left;
+  font-size: 18px;
+  color: black;
+  margin-top: -30px;
+  height: 20px;
+  font-weight: 600;
+}
+
+.order-page .content2 h6 {
+  padding-left: 10px;
+  font-size: 14px;
+  color: #4e4b66;
+}
+
+.order-page .content2 tr {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.order-page .content2 th {
+  color: #4e4b66;
+}
+
+.order-page .content2 .btn-available {
+  height: 26px;
+  width: 26px;
+  border-radius: 4px;
+  background-color: #d6d8e7;
+}
+
+.order-page .content2 .btn-none {
+  width: 10%;
+  height: 20px;
+  background-color: white;
+}
+
+.order-page .content2 .sold {
+  height: 26px;
+  width: 26px;
+  border-radius: 4px;
+  background-color: #6e7191 !important;
+}
+
+.order-page .content2 .selected {
+  height: 26px;
+  width: 26px;
+  border-radius: 4px;
+  background-color: #5f2eea !important;
+}
+
+.order-page .content2 .love-nest {
+  height: 26px;
+  width: 26px;
+  border-radius: 4px;
+  background-color: #f589d7 !important;
+}
+
+/* Akhir Content2============ */
+/* ==========Content3======= */
+.order-page .content3 {
+  margin-top: 17%;
+}
+
+.order-page .content3 .checkout {
+  justify-content: space-between;
+  width: 820px;
+  border-radius: 6px;
+}
+
+.order-page .content3 .checkout .btn-change1,
+.order-page .content3 .checkout button.btn-checkout:hover {
+  background-color: #e5e5e5;
+  color: #5f2eea;
+  font-size: 16px;
+  border-color: #5f2eea;
+  height: 56px;
+  width: 300px;
+  border-radius: 4px;
+}
+
+.order-page .content3 .checkout .btn-checkout,
+.order-page .content3 .checkout button.btn-change1:hover {
+  height: 56px;
+  width: 300px;
+  border-radius: 4px;
+  color: #f7f7fc;
+  background-color: #5f2eea;
+  font-size: 16px;
+}
+
+/* aside */
+.order-page .content4 aside {
+  font-family: "Mulish", sans-serif;
+  background-color: #ffffff;
+  height: 413px;
+  width: 382px;
+  border-radius: 6px;
+}
+
+.order-page .content4 .info-order {
+  font-size: 24px;
+  font-weight: 700;
+  color: #14142b;
+  margin-top: -80px;
+  margin-bottom: 20px;
+}
+
+.order-page .content4 aside .name-theater {
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.order-page .content4 aside .name-theater img {
+  width: max-content;
+  padding: 20px;
+}
+
+.order-page .content4 aside .name-theater h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #14142b;
+}
+
+.order-page .content4 aside h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b6b6b;
+  padding-left: 25px;
+}
+
+.order-page .content4 aside h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #14142b;
+  padding-right: 25px;
+}
+
+.order-page .content4 aside span {
+  height: 1px;
+  width: 382px;
+  background-color: #e6e6e6;
+}
+
+.order-page .content4 aside .total-payment h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #14142b;
+  padding-left: 25px;
+}
+
+.order-page .content4 aside .total-payment h6 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #5f2eea;
+  padding-right: 25px;
+}
