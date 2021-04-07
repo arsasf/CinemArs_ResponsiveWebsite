@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+/* Page Sign-In ==============================*/
+.page-signIn {
+  font-family: "Inter", sans-serif;
+}
+/* tampilan kolom kiri */
+.page-signIn .left {
+  background-color: #2b156b;
+  padding: 0;
+  position: relative;
+  height: max-content;
+  object-fit: cover;
+}
+.page-signIn .left p {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  left: -5%;
+  right: 0;
+  bottom: 40%;
+  top: 60%;
+}
+.page-signIn .img-background {
+  object-fit: cover;
+  width: 100%;
+  height: 670px;
+  opacity: 20%;
+}
+.page-signIn .img-logo {
+  position: absolute;
+  width: 45%;
+  top: 37%;
+  left: 25%;
+}
+/* Tampilan Kolom Kanan */
+
+.page-signIn .right .img-logo {
+  display: none;
+}
+.page-signIn .right form {
+  padding: 15px 25px 10px 20px;
+}
+.page-signIn .information-password {
+  margin: 10px 25px 25px 25px;
+  padding: 0px 25px 10px 20px;
+}
+.page-signIn .title-signIn {
+  font-weight: bold;
+}
+.page-signIn .signIn {
+  background-color: #5f2eea;
+  color: white;
+}
+.page-signIn .password {
+  display: flex;
+  position: relative;
+}
+.page-signIn .img-pswd {
+  position: absolute;
+  justify-content: right;
+  bottom: 20%;
+  left: 90%;
+}
+.page-signIn .forget-password {
+  text-align: center;
+}
+.page-signIn .reset {
+  color: #845eef;
+}
+.page-signIn .flex1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.page-signIn.or-web {
+  font-size: 13px;
+}
+.page-signIn .line1 {
+  width: 35%;
+  height: 1px;
+  background-color: rgba(211, 211, 211, 0.397);
+}
+.page-signIn .line2 {
+  width: 35%;
+  height: 1px;
+  background-color: rgba(211, 211, 211, 0.397);
+}
+.page-signIn .flex2 {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+}
+.page-signIn .facebook,
+.page-signIn .google {
+  display: flex;
+  width: 100%;
+  height: 75%;
+  border-radius: 10px;
+  justify-content: flex-end;
+}
+.page-signIn .btn img {
+  /* background-color: blue; */
+  padding: 5px 15px 0px 0px;
+}
+/* responsive website */
+@media (max-width: 800px) {
+  .page-signIn .left {
+    display: none;
+  }
+  .page-signIn .left p {
+    display: none;
+  }
+  .page-signIn .img-background {
+    display: none;
+  }
+  .page-signIn .img-logo {
+    position: absolute;
+    width: 45%;
+    top: 37%;
+    left: 25%;
+
+    background-color: #5f2eea;
+  }
+  .page-signIn .right .img-logo {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* ================ page sign in akhir =========================== */
+
+/* =================navbar======================================= */
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .container-fluid,
+.navbar .container {
+  height: 104px;
+  width: 1346px;
+
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+
+.navbar .container-fluid .menu-right,
+.navbar .container .menu-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .container-fluid .menu-right a,
+.navbar .container .menu-right a {
+  padding: 25px;
+  text-decoration: none;
+  color: #414141;
+}
+
+.navbar .container-fluid .menu-left,
+.navbar .container .menu-left {
+  padding: 0px 25px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .container-fluid .menu-left a,
+.navbar .container .menu-left a {
+  padding: 25px;
+  text-decoration: none;
+  color: #414141;
+}
+
+.navbar .container-fluid .menu-left img,
+.navbar .container .menu-left img {
+  padding: 0px 5px 0px 50px;
+}
+
+.navbar .container-fluid .menu-left .btn,
+.navbar .container .menu-left .btn {
+  margin-left: 50px;
+  background-color: #5f2eea;
+  color: #f5f6f8;
+}
+
+/* responsive website */
+
+/* ==================================Akhir Navbar ===================*/
+
+/* =================Footer======================*/
+footer {
+  font-family: "Mulish", sans-serif;
+  /* height: 100%;
+  width: 100%; */
+}
+
+footer .container .footer1 {
+  color: #4e4b66;
+  font-size: 16px;
+}
+
+footer .container .footer2 {
+  color: #4e4b66;
+}
+
+footer .container h1 {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
+
+footer .container h6 {
+  font-size: 14px;
+  color: #4e4b66;
+  font-weight: 400;
+}
+
+footer p {
+  text-align: center;
+  color: #4e4b66;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* Akhir Footer=============== */

@@ -1,0 +1,370 @@
+/** ====================Navbar=============== */
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.navbar .container {
+  height: 104px;
+  /* width: 1346px;  */
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  display: flex;
+  justify-content: space-between;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+.navbar .container .menu-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .container .menu-right a {
+  padding: 25px;
+  text-decoration: none;
+  color: #414141;
+}
+.navbar .container .collapse .menu-left {
+  display: none;
+}
+.navbar .container .menu-left {
+  padding: 0px 25px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .container .menu-left a {
+  padding: 25px;
+  text-decoration: none;
+  color: #414141;
+}
+.navbar .container .menu-left img {
+  padding: 0px 5px 0px 50px;
+}
+.navbar .container .menu-left .btn {
+  margin-left: 50px;
+  background-color: #5f2eea;
+  color: #f5f6f8;
+}
+/* *Responsive============== */
+@media (max-width: 991.98px) {
+  .navbar .container .menu-left {
+    display: none;
+  }
+  .navbar .container .collapse .menu-left {
+    display: block;
+  }
+  .navbar .container .menu-left form {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .navbar .container .menu-left .btn {
+    margin-top: 40px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+/* *============Akhir Navbar==================*/
+
+/* ?==============Content Home==================== */
+/* ?==============Content Home==================== */
+/* *==============================content1==========================*/
+.home-page-content1 {
+  font-family: "Mulish", sans-serif;
+}
+
+.home-page-content1 .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.home-page-content1 .container .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-page-content1 .container .left h6 {
+  font-size: 18px;
+  color: #414141;
+}
+.home-page-content1 .container .left h1 {
+  color: #5f2eea;
+  font-size: 45px;
+  font-weight: bold;
+}
+.home-page-content1 .container .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-page-content1 .container .right .img1 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.home-page-content1 .container .right .img2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.home-page-content1 .container .right .img3 {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+/* *responsive============== */
+/* *=======================================Akhir Content 1 */
+
+/* *=================Content2================== */
+.content2 {
+  background-color: #f5f6f8;
+  font-family: "Mulish", sans-serif;
+}
+.content2 .container {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.content2 .container .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.content2 .container .title .showing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content2 .container .title .showing a {
+  color: #5f2eea;
+  font-weight: 700;
+  font-size: 24px;
+}
+.content2 .container .title .showing span {
+  background-color: #5f2eea;
+  width: 100px;
+  height: 3px;
+  border-radius: 10px;
+}
+.content2 .container .title a {
+  color: #5f2eea;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+.content2 .container .title .carousel img {
+  margin-left: 20px;
+}
+/* *Akhir content2============================= */
+
+/* *===============================content3================= */
+.content3 {
+  font-family: "Mulish", sans-serif;
+}
+.content3 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content3 .container .showing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content3 .container .showing .view-all {
+  color: #5f2eea;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+.content3 .container .showing .upcoming-movies {
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: none;
+}
+.content3 .container .month {
+  justify-content: space-evenly;
+}
+.content3 .container .month .btn {
+  margin-top: 10px;
+  margin-right: 5px;
+  width: 120px;
+}
+.content3 .container .month .btn-click,
+.content3 .container .show-detail-movie .card .btn {
+  color: #5f2eea;
+  border-color: #5f2eea;
+}
+.content3 .container .month .btn-click-1,
+.content3 .container .month .btn-click:hover,
+.content3 .container .show-detail-movie .card .btn:hover {
+  background-color: #5f2eea;
+  color: #f5f6f8;
+  border-color: #5f2eea;
+}
+.content3 .container .row {
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.content3 .container .show-detail-movie .card {
+  width: max-content;
+  /* margin: auto; */
+}
+.content3 .container .show-detail-movie .card .details h5 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.content3 .container .show-detail-movie .card .details p {
+  color: #a0a3bd;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+/* *Akhir content3======================= */
+
+/**===============Content4=================== */
+.content4 {
+  font-family: "Mulish", sans-serif;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.content4 .container {
+  align-items: center;
+
+  border-radius: 8px;
+}
+.content4 .container .row .send-email {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 372px;
+  width: 1096px;
+}
+.content4 .container .title-send-email {
+  text-align: center;
+}
+.content4 .container .title-send-email h6 {
+  font-size: 16px;
+  color: grey;
+  font-weight: lighter;
+}
+.content4 .container .title-send-email h1 {
+  font-size: 32px;
+  color: #5f2eea;
+  font-weight: bold;
+}
+.content4 .container .send-email .form-email {
+  display: flex;
+}
+.content4 .container .send-email button {
+  margin-left: 20px;
+  background-color: #5f2eea;
+  color: #f5f6f8;
+}
+.content4 .container .send-email .footer-send-email h6 {
+  text-align: center;
+  font-size: 16px;
+  color: grey;
+  font-weight: lighter;
+}
+/* *Responsive========= */
+@media (max-width: 575.98px) {
+  .content3 .container .show-detail-movie .card {
+    width: 40%;
+    margin-top: 10px;
+  }
+  .content4 .container .row {
+    margin: auto;
+    height: 401px;
+    width: 327px;
+    border-radius: 8px;
+  }
+  .content4 .container .send-email .form-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .content4 .container .send-email button {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+/* *Akhir content4==================== */
+
+/* ?Akhir HomePage==================== */
+
+/* ?Akhir HomePage==================== */
+
+/* * =================Footer======================* */
+footer {
+  font-family: "Mulish", sans-serif;
+}
+footer .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .footer1 {
+  color: #4e4b66;
+  font-size: 16px;
+}
+footer .container .footer2 {
+  color: #4e4b66;
+}
+footer .container h1 {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
+footer .container .footer4 .list-sosmed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .container .footer4 .list-sosmed h6 {
+  margin-left: 10px;
+}
+footer .container h6 {
+  font-size: 14px;
+  color: #4e4b66;
+  font-weight: 400;
+}
+footer p {
+  text-align: center;
+  color: #4e4b66;
+  font-size: 14px;
+  font-weight: 400;
+}
+/** responsive website */
+@media (max-width: 991.98px) {
+  footer .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer2 .list-explore,
+  .footer3 .list-our-sponsor {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  footer .container .footer4 .list-sosmed {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  footer .container .footer4 .list-sosmed h6 {
+    display: none;
+  }
+  .footer3 img {
+    margin-top: 10px;
+    width: 70%;
+  }
+  .footer1,
+  .footer2,
+  .footer3,
+  .footer4 {
+    margin-top: 30px;
+  }
+}
+/* *============Akhir Footer=============== */

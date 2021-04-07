@@ -1,0 +1,329 @@
+/* NAvcbar======= */
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar .container {
+  height: 104px;
+  /* width: 1346px;  */
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  display: flex;
+  justify-content: space-between;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+
+.navbar .container .menu-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .container .menu-right a {
+  padding: 25px;
+  text-decoration: none;
+  color: #414141;
+}
+
+.navbar .container .collapse .menu-left {
+  display: none;
+}
+.navbar .container .menu-left {
+  padding: 0px 25px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .container .menu-left a {
+  padding: 25px;
+  text-decoration: none;
+  color: #414141;
+}
+
+.navbar .container .menu-left img {
+  padding: 0px 5px 0px 50px;
+}
+
+.navbar .container .menu-left .btn {
+  margin-left: 50px;
+  background-color: #5f2eea;
+  color: #f5f6f8;
+}
+
+@media (max-width: 991.98px) {
+  .navbar .container .menu-left {
+    display: none;
+  }
+  .navbar .container .collapse .menu-left {
+    display: block;
+  }
+  .navbar .container .menu-left form {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .navbar .container .menu-left .btn {
+    margin-top: 40px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+/* *Akhir Navbar */
+/* ===================Payment Page======================== */
+.payment-page {
+  background-color: #e5e5e5;
+  font-family: "Mulish", sans-serif;
+  padding-bottom: 100px;
+}
+
+.payment-page .content1 .title-payment-info h1,
+.payment-page .content1 .method-payment h1,
+.payment-page .content1 .info-order h1 {
+  margin-top: 56px;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #14142b;
+}
+
+.payment-page .content1 .payment-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 413px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.payment-page .content1 .payment-info h5 {
+  font-size: 20px;
+  color: #6b6b6b;
+  font-weight: 400;
+}
+
+.payment-page .content1 .payment-info h6 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.payment-page .content1 .payment-info span {
+  height: 1px;
+  background-color: #e6e6e6;
+}
+
+.payment-page .content2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 368px;
+  border-radius: 6px;
+}
+.payment-page .content2 .row-logo1 {
+  margin-top: 20px;
+}
+.payment-page .content2 .row-logo1 button {
+  height: 56px;
+  width: 146px;
+  border-color: #dedede;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.payment-page .content2 .line-or {
+  align-items: baseline;
+}
+.payment-page .content2 .line-or span {
+  height: 1px;
+  width: 280px;
+  background-color: #dedede;
+}
+
+.payment-page .content2 .line-or h6,
+.payment-page .content2 .cash-choosed h1 {
+  font-size: 16px;
+  font-weight: 600, lighter;
+  color: #a0a3bd;
+}
+
+.payment-page .content2 .cash-choosed h6 {
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5f2eea;
+}
+
+.payment-page .content3 {
+  margin-top: 40px;
+  margin-bottom: 72px;
+}
+
+.payment-page .content3 .checkout .btn-change1,
+.payment-page .content3 .checkout button.btn-checkout:hover {
+  background-color: #e5e5e5;
+  color: #5f2eea;
+  font-size: 16px;
+  border-color: #5f2eea;
+  height: 56px;
+  width: 300px;
+  border-radius: 4px;
+}
+
+.payment-page .content3 .checkout .btn-checkout,
+.payment-page .content3 .checkout button.btn-change1:hover {
+  height: 56px;
+  width: 300px;
+  border-radius: 4px;
+  color: #f7f7fc;
+  background-color: #5f2eea;
+  font-size: 16px;
+}
+
+/* Akhir content 3  dan payment combine========= */
+
+/* content4==== */
+
+.payment-page .personalinfo-content2 {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 40px;
+  display: flex;
+}
+
+.payment-page .personalinfo-content2 .form-info-order form .desc,
+.payment-page .personalinfo-content2 .form-info-order form .input-group {
+  border-radius: 4px;
+}
+
+.payment-page .personalinfo-content2 .form-info-order .warning {
+  height: 50px;
+  border-radius: 4px;
+  background-color: rgb(244, 183, 64, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.payment-page .personalinfo-content2 .form-info-order .warning h6 {
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4e4b66;
+  padding-left: 20px;
+}
+/* Akhir content 2 ========*/
+/* *responsive website */
+@media (max-width: 575.98px) {
+  .payment-page .content3 .checkout {
+    margin-bottom: 20px;
+    justify-content: space-around;
+  }
+  .payment-page .content3 .checkout .btn-change1,
+  .payment-page .content3 .checkout .btn-checkout {
+    margin: 20px;
+  }
+
+  .payment-page .content2 .container .row-logo1 button {
+    height: 56px;
+    width: max-content;
+    border-color: #ffffff;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+}
+/* Akhir paymentpage============ */
+/* * =================Footer======================* */
+
+footer {
+  font-family: "Mulish", sans-serif;
+  /* background-color: blue; */
+}
+
+footer .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .footer1 {
+  color: #4e4b66;
+  font-size: 16px;
+}
+
+footer .container .footer2 {
+  color: #4e4b66;
+}
+
+footer .container h1 {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
+
+footer .container .footer4 .list-sosmed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer .container .footer4 .list-sosmed h6 {
+  margin-left: 10px;
+}
+
+footer .container h6 {
+  font-size: 14px;
+  color: #4e4b66;
+  font-weight: 400;
+}
+
+footer p {
+  text-align: center;
+  color: #4e4b66;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* responsive */
+
+@media (max-width: 991.98px) {
+  footer .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footer2 .list-explore,
+  .footer3 .list-our-sponsor {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  footer .container .footer4 .list-sosmed {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  footer .container .footer4 .list-sosmed h6 {
+    display: none;
+  }
+  .footer3 img {
+    margin-top: 10px;
+    width: 70%;
+  }
+
+  .footer1,
+  .footer2,
+  .footer3,
+  .footer4 {
+    margin-top: 30px;
+  }
+}
+/* Akhir Footer=============== */

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <!--CSS -->
+    <link rel="stylesheet" href="/css/movie.css" />
+    <title>Movie Details</title>
+  </head>
+  <body>
+     <!-- =================Navbar=========== -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/img/[V1] - Home Page/Desktop/Tickitz 1.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-light rounded" id="navbarSupportedContent">
+          <div class="menu-right">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Movies</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cinemas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Buy Ticket</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-left">
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Location
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+            <form class="">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn" type="submit">
+                Profile
+              </button>
+          </div>
+        </div>
+        <div class="menu-left">
+          <div class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Location
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <img src="/img/[V1] - Home Page/Desktop/bx_bx-search.png" alt="" />
+          <img src="/img/[V1] - Movie Details/Desktop/Ellipse 11.png">
+        </div>
+      </div>
+    </nav>
+    <!-- =================Akhir Navbar============= -->
+    <!-- ==========isi Content================ -->
+    <!-- =================Content1============-->
+    <div class="content1-movie-details container">
+      <div class="row">
+        <div class="left col-lg-4">
+          <div class="img-details">
+            <img
+              class="img-thumbnail"
+              src="/img/[V1] - Movie Details/Desktop/Rectangle 119.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="right col-lg-8">
+          <div class="details-movie d-flex justify-content-between m-5">
+            <div class="details-content d-grid">
+              <div class="details-title mb-3">
+                <h1>Spider-Man: Homecoming</h1>
+                <h6>Adventure, Action, Sci-Fi</h6>
+              </div>
+              <div class="details-time-actor d-flex mb-3">
+                <div class="date-duration">
+                  <h6>Release date</h6>
+                  <h1>June 28, 2017</h1>
+                  <h6>Duration</h6>
+                  <h1>2 hours 13 minutes</h1>
+                </div>
+                <div class="actor">
+                  <h6>Directed by</h6>
+                  <h1>Jon Watss</h1>
+                  <h6>Casts</h6>
+                  <h1>Tom Holland, Michael Keaton, Robert Downey Jr., ...</h1>
+                </div>
+              </div>
+              <span></span>
+              <div class="synopsis mt-3">
+                <h1>Synopsis</h1>
+                <h6>
+                  Thrilled by his experience with the Avengers, Peter returns
+                  home, where he lives with his Aunt May, under the watchful eye
+                  of his new mentor Tony Stark, Peter tries to fall back into
+                  his normal daily routine - distracted by thoughts of proving
+                  himself to be more than just your friendly neighborhood
+                  Spider-Man - but when the Vulture emerges as a new villain,
+                  everything that Peter holds most important will be threatened.
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir Content1======================= -->
+    <!-- ===============Content2============== -->
+    <div class="content2-movie-details">
+      <div class="container">
+        <div class="row">
+          <div class="date-place">
+            <h1>Showtimes and Tickets</h1>
+            <div class="form-date-place">
+              <div class="row g-2 align-items-center">
+                <div class="col-auto">
+                  <input type="date" class="form-control" />
+                </div>
+                <div class="col-auto">
+                  <input type="text" value="Purwokerto" class="form-control" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="card">
+                <div class="name">
+                  <img src="/img/[V1] - Movie Details/Vector(1).png" alt="" />
+                  <div class="address">
+                    <h1>ebv.id</h1>
+                    <h6>
+                      Whatever street No.12,<br />
+                      South Purwokerto
+                    </h6>
+                  </div>
+                </div>
+                <span></span>
+                <div class="time1">
+                  <h6>08:30am</h6>
+                  <h6>10:30pm</h6>
+                  <h6>12:00pm</h6>
+                  <h6>02:00pm</h6>
+                </div>
+                <div class="time2">
+                  <h6>07:00pm</h6>
+                  <h6>08:30pm</h6>
+                  <h6>04:30pm</h6>
+                  <h6></h6>
+                </div>
+
+                <div class="price">
+                  <h6>Price</h6>
+                  <h1>$10.00/seat</h1>
+                </div>
+                <div class="booking">
+                  <button type="button" class="btn btn-1 shadow">
+                    Book now
+                  </button>
+                  <button type="button" class="btn btn-2">Add to cart</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="name">
+                  <img src="/img/[V1] - Movie Details/Vector.png" alt="" />
+                  <div class="address">
+                    <h1>CineOne21</h1>
+                    <h6>
+                      Downcare street No. 21,<br />
+                      East Purwokerto
+                    </h6>
+                  </div>
+                </div>
+                <span></span>
+                <div class="time1">
+                  <h6>08:30am</h6>
+                  <h6>10:30pm</h6>
+                  <h6>12:00pm</h6>
+                  <h6>02:00pm</h6>
+                </div>
+                <div class="time2">
+                  <h6>07:00pm</h6>
+                  <h6>08:30pm</h6>
+                  <h6>04:30pm</h6>
+                  <h6></h6>
+                </div>
+
+                <div class="price">
+                  <h6>Price</h6>
+                  <h1>$10.00/seat</h1>
+                </div>
+                <div class="booking">
+                  <button type="button" class="btn btn-1 shadow">
+                    Book now
+                  </button>
+                  <button type="button" class="btn btn-2">Add to cart</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="name">
+                  <img src="/img/[V1] - Movie Details/Vector(2).png" alt="" />
+                  <div class="address">
+                    <h1>hiflix Cinema</h1>
+                    <h6>
+                      Colonel street No. 2,<br />
+                      East Purwokerto
+                    </h6>
+                  </div>
+                </div>
+                <span></span>
+                <div class="time1">
+                  <h6>08:30am</h6>
+                  <h6>10:30pm</h6>
+                  <h6>12:00pm</h6>
+                  <h6>02:00pm</h6>
+                </div>
+                <div class="time2">
+                  <h6>07:00pm</h6>
+                  <h6>08:30pm</h6>
+                  <h6>04:30pm</h6>
+                  <h6></h6>
+                </div>
+
+                <div class="price">
+                  <h6>Price</h6>
+                  <h1>$10.00/seat</h1>
+                </div>
+                <div class="booking">
+                  <button type="button" class="btn btn-1 shadow">
+                    Book now
+                  </button>
+                  <button type="button" class="btn btn-2">Add to cart</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="name">
+                  <img src="/img/[V1] - Movie Details/Vector(1).png" alt="" />
+                  <div class="address">
+                    <h1>ebv.id</h1>
+                    <h6>
+                      Whatever street No.12,<br />
+                      South Purwokerto
+                    </h6>
+                  </div>
+                </div>
+                <span></span>
+                <div class="time1">
+                  <h6>08:30am</h6>
+                  <h6>10:30pm</h6>
+                  <h6>12:00pm</h6>
+                  <h6>02:00pm</h6>
+                </div>
+                <div class="time2">
+                  <h6>07:00pm</h6>
+                  <h6>08:30pm</h6>
+                  <h6>04:30pm</h6>
+                  <h6></h6>
+                </div>
+
+                <div class="price">
+                  <h6>Price</h6>
+                  <h1>$10.00/seat</h1>
+                </div>
+                <div class="booking">
+                  <button type="button" class="btn btn-1 shadow">
+                    Book now
+                  </button>
+                  <button type="button" class="btn btn-2">Add to cart</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="name">
+                  <img src="/img/[V1] - Movie Details/Vector.png" alt="" />
+                  <div class="address">
+                    <h1>CineOne21</h1>
+                    <h6>
+                      Downcare street No. 21,<br />
+                      East Purwokerto
+                    </h6>
+                  </div>
+                </div>
+                <span></span>
+                <div class="time1">
+                  <h6>08:30am</h6>
+                  <h6>10:30pm</h6>
+                  <h6>12:00pm</h6>
+                  <h6>02:00pm</h6>
+                </div>
+                <div class="time2">
+                  <h6>07:00pm</h6>
+                  <h6>08:30pm</h6>
+                  <h6>04:30pm</h6>
+                  <h6></h6>
+                </div>
+
+                <div class="price">
+                  <h6>Price</h6>
+                  <h1>$10.00/seat</h1>
+                </div>
+                <div class="booking">
+                  <button type="button" class="btn btn-1 shadow">
+                    Book now
+                  </button>
+                  <button type="button" class="btn btn-2">Add to cart</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="name">
+                  <img src="/img/[V1] - Movie Details/Vector(2).png" alt="" />
+                  <div class="address">
+                    <h1>hiflix Cinema</h1>
+                    <h6>
+                      Colonel street No. 2,<br />
+                      East Purwokerto
+                    </h6>
+                  </div>
+                </div>
+                <span></span>
+                <div class="time1">
+                  <h6>08:30am</h6>
+                  <h6>10:30pm</h6>
+                  <h6>12:00pm</h6>
+                  <h6>02:00pm</h6>
+                </div>
+                <div class="time2">
+                  <h6>07:00pm</h6>
+                  <h6>08:30pm</h6>
+                  <h6>04:30pm</h6>
+                  <h6></h6>
+                </div>
+
+                <div class="price">
+                  <h6>Price</h6>
+                  <h1>$10.00/seat</h1>
+                </div>
+                <div class="booking">
+                  <button type="button" class="btn btn-1 shadow">
+                    Book now
+                  </button>
+                  <button type="button" class="btn btn-2">Add to cart</button>
+                </div>
+              </div>
+              <div
+                class="container-2-1 container d-flex justify-content-between"
+              >
+                <span class="line"> </span>
+                <a href="/order.html">View More</a>
+                <span class="line"> </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- aAkhir Content======================= -->
+    <!-- ===============Footer============= -->
+    <footer>
+      <div class="container">
+        <div class="footer1">
+          <a href="#">
+            <img
+              class="mb-3"
+              src="/img/[V1] - Home Page/Desktop/Tickitz 1.png"
+              alt=""
+          /></a>
+          <h6>
+            Stop waiting in line. Buy tickets <br />
+            conveniently, watch movies quietly.
+          </h6>
+        </div>
+        <div class="footer2">
+          <div class="explore">
+            <h1 class="mb-3">Explore</h1>
+          </div>
+          <div class="list-explore">
+            <h6>Cinemas</h6>
+            <h6>Movie List</h6>
+            <h6>My Ticket</h6>
+            <h6>Notification</h6>
+          </div>
+        </div>
+        <div class="footer3">
+          <div class="our-sponsor">
+            <h1>Our Sponsor</h1>
+          </div>
+          <div class="list-our-sponsor">
+            <h6 class="mb-3">
+              <a href="#"
+                ><img src="/img/[V1] - Home Page/Desktop/Vector(1).png" alt=""
+              /></a>
+            </h6>
+            <h6 class="mb-3">
+              <a href="#">
+                <img src="/img/[V1] - Home Page/Desktop/Vector(2).png" alt="" />
+              </a>
+            </h6>
+            <h6 class="mb-3">
+              <a href="#">
+                <img src="/img/[V1] - Home Page/Desktop/Vector(3).png" alt="" />
+              </a>
+            </h6>
+          </div>
+        </div>
+        <div class="footer4">
+          <div class="sosmed">
+            <h1>Follow Us</h1>
+          </div>
+          <div class="list-sosmed">
+            <div class="facebook d-flex">
+              <a href="#">
+                <img
+                  src="/img/[V1] - Home Page/Desktop/eva_facebook-outline.png"
+                  alt=""
+              /></a>
+              <h6>Tickitz Cinema id</h6>
+            </div>
+            <div class="instagram d-flex">
+              <a href="#">
+                <img
+                  src="/img/[V1] - Home Page/Desktop/bx_bxl-instagram.png"
+                  alt=""
+              /></a>
+              <h6>tickitz.id</h6>
+            </div>
+            <div class="twitter d-flex">
+              <a href="#">
+                <img
+                  src="/img/[V1] - Home Page/Desktop/eva_twitter-outline.png"
+                  alt=""
+              /></a>
+              <h6>tickitz.id</h6>
+            </div>
+            <div class="youtube d-flex">
+              <a href="">
+                <img
+                  src="/img/[V1] - Home Page/Desktop/feather_youtube.png"
+                  alt=""
+              /></a>
+              <h6>Tickitz Cinema id</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>© 2020 Tickitz. All Rights Reserved.</p>
+    </footer>
+    <!-- Akhir footer=================== -->
+  </body>
+  <script src="/js/index.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"
+  ></script>
+</html>

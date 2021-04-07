@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <!--CSS -->
+    <link rel="stylesheet" href="/css/order.css" />
+    <title>Order</title>
+  </head>
+  <body>
+      <!-- =================Navbar=========== -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/img/[V1] - Home Page/Desktop/Tickitz 1.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse bg-light rounded" id="navbarSupportedContent">
+            <div class="menu-right">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Movies</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cinemas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Buy Ticket</a>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-left">
+              <div class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Location
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <form class="">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn" type="submit">
+                  Profile
+                </button>
+            </div>
+          </div>
+          <div class="menu-left">
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Location
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+            <img src="/img/[V1] - Home Page/Desktop/bx_bx-search.png" alt="" />
+            <img src="/img/[V1] - Movie Details/Desktop/Ellipse 11.png">
+          </div>
+        </div>
+      </nav>
+      <!-- =================Akhir Navbar============= -->
+    <!-- ===============Section=============== -->
+    <section class="order-page">
+      <div class="section-aside-combine container">
+        <div class="row">
+          <div class="section-combine col-lg-8">
+            <!-- ===========Content 1============== -->
+            <div class="content1 container">
+              <div class="d-gird">
+                <h1>Movie Selected</h1>
+              </div>
+            </div>
+
+            <div class="content1 container">
+              <div class="change d-flex">
+                <h2>Spider-Man: Homecoming</h2>
+                <button type="button" class="btn-change btn">
+                  Change Movie
+                </button>
+              </div>
+            </div>
+
+            <div class="content1 container">
+              <div class="d-gird">
+                <h1>Choose Your Seat</h1>
+              </div>
+            </div>
+            <!-- Akhir Content1======================= -->
+            <!-- =================Content 2=========== -->
+            <div class="content2 container">
+              <div class="row d-grid justify-content-center">
+                <div class="screen">
+                  <h1>Screen</h1>
+                </div>
+                <div class="seat-button">
+                  <table>
+                    <tr>
+                      <th>A</th>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td><button type="button" class="sold btn"></button></td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td><button type="button" class="sold btn"></button></td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>B</th>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td><button type="button" class="sold btn"></button></td>
+                      <td><button type="button" class="sold btn"></button></td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn-none btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>C</th>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button type="button" class="selected btn"></button>
+                      </td>
+                      <td>
+                        <button type="button" class="selected btn"></button>
+                      </td>
+                      <td>
+                        <button type="button" class="selected btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td><button type="button" class="sold btn"></button></td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td><button type="button" class="sold btn"></button></td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>D</th>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td><button type="button" class="sold btn"></button></td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available sold btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td><button type="button" class="sold btn"></button></td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>E</th>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td><button type="button" class="sold btn"></button></td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>F</th>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button type="button" class="love-nest btn"></button>
+                      </td>
+                      <td>
+                        <button type="button" class="love-nest btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td><button type="button" class="sold btn"></button></td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>G</th>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td><button type="button" class="sold btn"></button></td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn-available btn"
+                        ></button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th></th>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>5</td>
+                      <td>6</td>
+                      <td>7</td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn-none btn"></button>
+                      </td>
+                      <td>8</td>
+                      <td>9</td>
+                      <td>10</td>
+                      <td>11</td>
+                      <td>12</td>
+                      <td>13</td>
+                      <td>14</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="key">
+                  <div class="titile">
+                    <h2>Seating Key</h2>
+                  </div>
+                  <div class="button-key d-flex">
+                    <div class="available-key d-flex">
+                      <button type="button" class="btn-available btn"></button>
+                      <h6 class="m-1">Available</h6>
+                    </div>
+                    <div class="selected-key d-flex">
+                      <button type="button" class="selected btn"></button>
+                      <h6 class="m-1">Selected</h6>
+                    </div>
+                    <div class="love-nest-key d-flex">
+                      <button type="button" class="love-nest btn"></button>
+                      <h6 class="m-1">Love nest</h6>
+                    </div>
+                    <div class="sold-key d-flex">
+                      <button type="button" class="sold btn"></button>
+                      <h6 class="m-1">Sold</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Akhir Content2 ========-->
+
+            <!-- ========Content 3==================-->
+            <div class="content3 container">
+              <div class="checkout d-lg-flex d-sm-grid">
+                <button type="button" class="btn-change1 btn">
+                  Change your movie
+                </button>
+                <button type="button" class="btn-checkout btn shadow">
+                  <a href="/user/order.html">Checkout now</a>
+                  
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Akhir Content3================= -->
+          <!-- Akhir section ================= -->
+
+          <!-- =====================Content4 aside================== -->
+          
+          <div class="col-lg-4">
+            <div class="content4 row">
+            <div class="cont4-1 ">
+              <h1 class="info-order">Order Info</h1>
+              <div class="payment d-grid justify-content-around shadow">
+                <div class="name-theater d-flex">
+                  <img src="/img/[V1] - Movie Details/Vector.png" alt="" />
+                  <h1>CineOne21 Cinema</h1>
+                </div>
+                <div class="name-movie d-flex justify-content-between">
+                  <h5>Movie selected</h5>
+                  <h6>Spider-man: Homecoming</h6>
+                </div>
+                <div class="date-movie d-flex justify-content-between">
+                  <h5>Tuesday, 07 July 2020</h5>
+                  <h6>02:00pm</h6>
+                </div>
+                <div class="price-ticket d-flex justify-content-between">
+                  <h5>One ticket price</h5>
+                  <h6>$10</h6>
+                </div>
+                <div class="seat-choosed d-flex justify-content-between">
+                  <h5>Seat choosed</h5>
+                  <h6>C4,C5,C6</h6>
+                </div>
+                <span></span>
+                <div class="total-payment d-flex justify-content-between">
+                  <h1>Total Payment</h1>
+                  <h6>$30</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- Akhir Content4 aside=================== -->
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Section======== -->
+    <!-- ===============Footer============= -->
+    <footer>
+      <div class="container">
+        <div class="footer1">
+          <a href="#">
+            <img
+              class="mb-3"
+              src="/img/[V1] - Home Page/Desktop/Tickitz 1.png"
+              alt=""
+          /></a>
+          <h6>
+            Stop waiting in line. Buy tickets <br />
+            conveniently, watch movies quietly.
+          </h6>
+        </div>
+        <div class="footer2">
+          <div class="explore">
+            <h1 class="mb-3">Explore</h1>
+          </div>
+          <div class="list-explore">
+            <h6>Cinemas</h6>
+            <h6>Movie List</h6>
+            <h6>My Ticket</h6>
+            <h6>Notification</h6>
+          </div>
+        </div>
+        <div class="footer3">
+          <div class="our-sponsor">
+            <h1>Our Sponsor</h1>
+          </div>
+          <div class="list-our-sponsor">
+            <h6 class="mb-3">
+              <a href="#"
+                ><img src="/img/[V1] - Home Page/Desktop/Vector(1).png" alt=""
+              /></a>
+            </h6>
+            <h6 class="mb-3">
+              <a href="#">
+                <img src="/img/[V1] - Home Page/Desktop/Vector(2).png" alt="" />
+              </a>
+            </h6>
+            <h6 class="mb-3">
+              <a href="#">
+                <img src="/img/[V1] - Home Page/Desktop/Vector(3).png" alt="" />
+              </a>
+            </h6>
+          </div>
+        </div>
+        <div class="footer4">
+          <div class="sosmed">
+            <h1>Follow Us</h1>
+          </div>
+          <div class="list-sosmed">
+            <div class="facebook d-flex">
+              <a href="#">
+                <img
+                  src="/img/[V1] - Home Page/Desktop/eva_facebook-outline.png"
+                  alt=""
+              /></a>
+              <h6>Tickitz Cinema id</h6>
+            </div>
+            <div class="instagram d-flex">
+              <a href="#">
+                <img
+                  src="/img/[V1] - Home Page/Desktop/bx_bxl-instagram.png"
+                  alt=""
+              /></a>
+              <h6>tickitz.id</h6>
+            </div>
+            <div class="twitter d-flex">
+              <a href="#">
+                <img
+                  src="/img/[V1] - Home Page/Desktop/eva_twitter-outline.png"
+                  alt=""
+              /></a>
+              <h6>tickitz.id</h6>
+            </div>
+            <div class="youtube d-flex">
+              <a href="">
+                <img
+                  src="/img/[V1] - Home Page/Desktop/feather_youtube.png"
+                  alt=""
+              /></a>
+              <h6>Tickitz Cinema id</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>© 2020 Tickitz. All Rights Reserved.</p>
+    </footer>
+    <!-- Akhir footer=================== -->
+  </body>
+  <script src="/js/index.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"
+  ></script>
+</html>

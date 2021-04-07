@@ -1,0 +1,444 @@
+/* NAvcbar======= */
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar .container {
+  height: 104px;
+  /* width: 1346px;  */
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  display: flex;
+  justify-content: space-between;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+
+.navbar .container .menu-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .container .menu-right a {
+  padding: 25px;
+  text-decoration: none;
+  color: #414141;
+}
+
+.navbar .container .collapse .menu-left {
+  display: none;
+}
+.navbar .container .menu-left {
+  padding: 0px 25px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .container .menu-left a {
+  padding: 25px;
+  text-decoration: none;
+  color: #414141;
+}
+
+.navbar .container .menu-left img {
+  padding: 0px 5px 0px 50px;
+}
+
+.navbar .container .menu-left .btn {
+  margin-left: 50px;
+  background-color: #5f2eea;
+  color: #f5f6f8;
+}
+
+@media (max-width: 991.98px) {
+  .navbar .container .menu-left {
+    display: none;
+  }
+  .navbar .container .collapse .menu-left {
+    display: block;
+  }
+  .navbar .container .menu-left form {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .navbar .container .menu-left .btn {
+    margin-top: 40px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+/* *Akhir Navbar */
+/* ====================Order Page========= */
+.order-page {
+  background-color: #e5e5e5;
+  font-family: "Mulish", sans-serif;
+  padding-bottom: 40px;
+}
+
+.order-page .content1 {
+  background-color: #e5e5e5;
+}
+
+.order-page .content1 .change {
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.order-page .content1 h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.order-page .content1 .btn-change {
+  color: #5f2eea;
+  font-weight: 700, lighter;
+  background-color: #eff0f6;
+  border-radius: 10px;
+}
+
+.order-page .content1 h1 {
+  margin-top: 48px;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #14142b;
+}
+
+/* ====================Content2============ */
+
+.order-page .content2 {
+  background-color: #e5e5e5;
+}
+.order-page .content2 .row {
+  justify-content: space-around;
+  height: 661px;
+  border-radius: 6px;
+}
+.order-page .content2 .d-grid {
+  border-radius: 6px;
+  background-color: white;
+}
+.order-page .content2 h1 {
+  text-align: center;
+  font-size: 14px;
+  color: #4e4b66;
+  font-weight: 600;
+  margin-top: 20%;
+}
+
+.order-page .content2 span {
+  height: 2px;
+  width: 532px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #eee8e8;
+}
+
+.order-page .content2 h2 {
+  text-align: left;
+  font-size: 18px;
+  color: black;
+  height: 20px;
+  font-weight: 600;
+}
+.order-page .content2 .row .key {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.order-page .content2 .row .key .button-key {
+  justify-content: left;
+}
+.order-page .content2 h6 {
+  padding-left: 10px;
+  font-size: 14px;
+  color: #4e4b66;
+}
+
+.order-page .content2 tr {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.order-page .content2 th {
+  color: #4e4b66;
+}
+
+.order-page .content2 .btn-available {
+  height: 26px;
+  width: 26px;
+  border-radius: 4px;
+  background-color: #d6d8e7;
+}
+
+.order-page .content2 .btn-none {
+  width: 10%;
+  height: 20px;
+  background-color: white;
+}
+
+.order-page .content2 .sold {
+  height: 26px;
+  width: 26px;
+  border-radius: 4px;
+  background-color: #6e7191 !important;
+}
+
+.order-page .content2 .selected {
+  height: 26px;
+  width: 26px;
+  border-radius: 4px;
+  background-color: #5f2eea !important;
+}
+
+.order-page .content2 .love-nest {
+  height: 26px;
+  width: 26px;
+  border-radius: 4px;
+  background-color: #f589d7 !important;
+}
+
+/* Akhir Content2============ */
+/* ==========Content3======= */
+.order-page .content3 {
+  margin-top: 5%;
+}
+
+.order-page .content3 .checkout {
+  justify-content: space-between;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.order-page .content3 .checkout button.btn-checkout:hover {
+  background-color: #5f2eea;
+  color: #5f2eea;
+  font-size: 16px;
+  border-color: #d8cdf8;
+  height: 56px;
+  width: 300px;
+  border-radius: 4px;
+}
+
+.order-page .content3 .checkout .btn-change1,
+.order-page .content3 .checkout button.btn-checkout:hover {
+  background-color: #e5e5e5;
+  color: #5f2eea;
+  font-size: 16px;
+  border-color: #5f2eea;
+  height: 56px;
+  width: 300px;
+  border-radius: 4px;
+}
+
+.order-page .content3 .checkout .btn-checkout {
+  height: 56px;
+  width: 300px;
+  border-radius: 4px;
+  color: #f7f7fc;
+  background-color: #5f2eea;
+  font-size: 16px;
+}
+
+.order-page .content3 .checkout button a {
+  text-decoration: none;
+  color: #f7f7fc;
+  font-size: 16px;
+}
+/* *akhir content3=========== */
+/* *Content4============ */
+.order-page .content4 {
+  font-family: "Mulish", sans-serif;
+}
+
+.order-page .content4 .cont4-1 {
+  margin-top: 43px;
+}
+.order-page .content4 .info-order {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #14142b;
+}
+
+.order-page .content4 .payment {
+  background-color: #ffffff;
+  margin: 2px -20px 0px -20px;
+  height: 413px;
+  border-radius: 6px;
+  align-items: center;
+}
+.order-page .content4 .name-theater {
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.order-page .content4 .name-theater img {
+  width: max-content;
+  padding: 20px;
+}
+
+.order-page .content4 .name-theater h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #14142b;
+}
+
+.order-page .content4 h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b6b6b;
+  padding-left: 25px;
+}
+
+.order-page .content4 h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #14142b;
+  padding-right: 25px;
+}
+
+.order-page .content4 span {
+  height: 1px;
+  width: 382px;
+  background-color: #e6e6e6;
+}
+
+.order-page .content4 .total-payment h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #14142b;
+  padding-left: 25px;
+}
+
+.order-page .content4 .total-payment h6 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #5f2eea;
+  padding-right: 25px;
+}
+/* Akhir Content3===================== */
+
+/* Responsive =========== */
+@media (max-width: 575.98px) {
+  .order-page .content2 table {
+    display: none;
+  }
+  .order-page .content4 .payment {
+    margin: 2px 0px 20px 0px;
+    height: 413px;
+    border-radius: 6px;
+    align-items: center;
+  }
+
+  .order-page .content4 .info-order {
+    margin: 20px;
+  }
+  .order-page .content3 .checkout {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .order-page .content3 .checkout .btn-change1,
+  .order-page .content3 .checkout .btn-checkout {
+    margin: 20px;
+  }
+}
+/* Akhir order page=================== */
+/* * =================Footer======================* */
+
+footer {
+  font-family: "Mulish", sans-serif;
+  /* background-color: blue; */
+}
+
+footer .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .footer1 {
+  color: #4e4b66;
+  font-size: 16px;
+}
+
+footer .container .footer2 {
+  color: #4e4b66;
+}
+
+footer .container h1 {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
+
+footer .container .footer4 .list-sosmed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer .container .footer4 .list-sosmed h6 {
+  margin-left: 10px;
+}
+
+footer .container h6 {
+  font-size: 14px;
+  color: #4e4b66;
+  font-weight: 400;
+}
+
+footer p {
+  text-align: center;
+  color: #4e4b66;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* responsive */
+
+@media (max-width: 991.98px) {
+  footer .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footer2 .list-explore,
+  .footer3 .list-our-sponsor {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  footer .container .footer4 .list-sosmed {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  footer .container .footer4 .list-sosmed h6 {
+    display: none;
+  }
+  .footer3 img {
+    margin-top: 10px;
+    width: 70%;
+  }
+
+  .footer1,
+  .footer2,
+  .footer3,
+  .footer4 {
+    margin-top: 30px;
+  }
+}
+/* Akhir Footer=============== */
