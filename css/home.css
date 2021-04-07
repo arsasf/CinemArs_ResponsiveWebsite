@@ -6,9 +6,6 @@
 }
 .navbar .container {
   height: 104px;
-  /* width: 1346px;  */
-  /* margin-top: 10px;
-  margin-bottom: 10px; */
   display: flex;
   justify-content: space-between;
   font-family: "Mulish", sans-serif;
