@@ -27,4 +27,3 @@ CinemArs Ticket Booking is a website-based online movie theater ticket booking s
 ## License
 
 © [Asftars](https://github.com/arsasf/)
-Aulia Safitri
