@@ -1,10 +1,10 @@
-<h1 align='center'>CinemArs Ticket Booking</h1>
+<h1 align='center'>CinemArs</h1>
   <p align="center">
     <a href="https://cinemarsticketbooking.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/arsasf/CinemArs_Ticket_Booking/issues">Report Bug</a>
+    <a href="https://github.com/arsasf/CinemArs/issues">Report Bug</a>
     ·
-    <a href="https://github.com/arsasf/CinemArs_Ticket_Booking/pulls">Request Feature</a>
+    <a href="https://github.com/arsasf/CinemArs/pulls">Request Feature</a>
   </p>
 
 ![Image Banner](image_banner.png)
@@ -19,7 +19,7 @@ CinemArs Ticket Booking is a website-based online movie theater ticket booking s
 
 ## Getting Started
 
-1. Download this Project or you can type `git clone #https://github.com/arsasf/CinemArs_Ticket_Booking.git`
+1. Download this Project or you can type `git clone #https://github.com/arsasf/CinemArs.git`
 2. Open app's directory with your browser
 
 ## License
