@@ -9,7 +9,7 @@
 
 ![Image Banner](image_banner.png)
 
-## About The Project
+## About The Projectgit
 
 CinemArs Ticket Booking is a website-based online movie theater ticket booking system. Offline ticket purchases require buyers to queue. Sometimes buyers have to queue up to several hours to watch their favorite movie and successfully buy a ticket, there are also those who run out of tickets after queuing for a long time. In terms of officers serving tickets offline it is also quite difficult. Officers have to manually enter the amount of data for each purchase into their system and allow incorrect data entry.To solve this problem, I created a website-based online ticket booking system. Where the way to buy tickets is practical, not to come to the movie theater and queue for a long time. Buyers only need to access this website from their mobile phone and order the ticket. In addition, buyers can also see information on the film being shown and seat selection. The officer just needs to check the data from the ticket purchase ordered whether it is appropriate or not.
 
@@ -24,4 +24,4 @@ CinemArs Ticket Booking is a website-based online movie theater ticket booking s
 
 ## License
 
-© [Asftars](https://github.com/arsasf/)
+© [Aulia Safitri](https://github.com/arsasf/)
